@@ -1,0 +1,17 @@
+ "<%=name%> That was fun, would you like to play again?"
+<center>
+"Do you want to play again? Y/N"
+</center>
+
+<center><img src="/img/play_again_button.png"; 
+style="height:15rem; width:25rem;"/></center>
+
+<center>
+
+ <form method ="post" action ="/play_again">
+    <!--input type ="text" name ="playagain" style ="text_transform:uppercase" autofocus-->
+    <input type = "text" name = "user_name" value = <%=name%> hidden>
+    <input type = "submit">
+</form>
+
+</center>
